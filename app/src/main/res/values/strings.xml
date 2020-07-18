@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">All Mighty Pull</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="window_manager">Window Manager</string>
+    <string name="activity_manager">Activity Manager</string>
+    <string name="alarm_manager">Alarm Manager</string>
+    <string name="audio_manager">Audio Manager</string>
+    <string name="battery_manager">Battery Manager</string>
+    <string name="connectivity_manager">Connectivity Manager</string>
+    <string name="download_manager">Download Manager</string>
+    <string name="input_manager">Input Manager</string>
+    <string name="job_scheduler">job Scheduler</string>
+    <string name="keyguard_manager">Keyguard Manager</string>
+    <string name="location_manager">Location Manager</string>
+    <string name="media_route">Media Route</string>
+    <string name="search_manager">Search Manager</string>
+    <string name="telephony_manager">Telephony Manager</string>
+    <string name="ui_model_manager">Ui Model Manager</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="wifi_manager">Wifi Manager</string>
+    <string name="network_stats_manager">Network Stats Manager</string>
+    <string name="subscription_manager">Subscription Manager</string>
+</resources>

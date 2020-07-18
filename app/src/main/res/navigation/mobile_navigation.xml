@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_activityM">
+
+    <fragment
+        android:id="@+id/nav_activityM"
+        android:name="com.example.androidmanager.ui.activityM.ActivityM"
+        android:label="@string/activity_manager"
+        tools:layout="@layout/fragment_activity_m" />
+
+    <fragment
+        android:id="@+id/nav_alarmM"
+        android:name="com.example.androidmanager.ui.alarmM.AlarmM"
+        android:label="@string/alarm_manager"
+        tools:layout="@layout/fragment_alarm_m" />
+
+    <fragment
+        android:id="@+id/nav_audioM"
+        android:name="com.example.androidmanager.ui.audioM.AudioM"
+        android:label="@string/audio_manager"
+        tools:layout="@layout/audio_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_batteryM"
+        android:name="com.example.androidmanager.ui.batteryM.BatteryM"
+        android:label="@string/battery_manager"
+        tools:layout="@layout/battery_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_connectivityM"
+        android:name="com.example.androidmanager.ui.connectivityM.ConnectivityM"
+        android:label="@string/connectivity_manager"
+        tools:layout="@layout/connectivity_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_downloadM"
+        android:name="com.example.androidmanager.ui.downloadM.DownloadM"
+        android:label="@string/download_manager"
+        tools:layout="@layout/download_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_inputMethodM"
+        android:name="com.example.androidmanager.ui.inputMethodM.InputMethodM"
+        android:label="@string/input_manager"
+        tools:layout="@layout/input_method_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_jobSchedulerM"
+        android:name="com.example.androidmanager.ui.jobScheduler.JobSchedulerM"
+        android:label="@string/job_scheduler"
+        tools:layout="@layout/job_scheduler_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_keyguardM"
+        android:name="com.example.androidmanager.ui.keyguardM.KeyguardM"
+        android:label="@string/keyguard_manager"
+        tools:layout="@layout/keyguard_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_locationM"
+        android:name="com.example.androidmanager.ui.locationM.LocationM"
+        android:label="@string/location_manager"
+        tools:layout="@layout/location_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_mediaRouteM"
+        android:name="com.example.androidmanager.ui.mediaRouter.MediaRouterM"
+        android:label="@string/media_route"
+        tools:layout="@layout/media_router_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_networkStatsM"
+        android:name="com.example.androidmanager.ui.networkStatsM.NetworkStatsM"
+        tools:layout="@layout/network_stats_m_fragment"
+        android:label="@string/network_stats_manager"/>
+
+    <fragment
+        android:id="@+id/nav_searchM"
+        android:name="com.example.androidmanager.ui.searchM.SearchM"
+        android:label="@string/search_manager"
+        tools:layout="@layout/search_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_subscriptionM"
+        android:name="com.example.androidmanager.ui.subscriptionM.SubscriptionM"
+        android:label="@string/subscription_manager"
+        tools:layout="@layout/subscription_m_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_telephonyM"
+        android:name="com.example.androidmanager.ui.telephonyM.TelephonyM"
+        android:label="@string/telephony_manager"
+        tools:layout="@layout/telephony_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_uiModelM"
+        android:name="com.example.androidmanager.ui.uiModeM.UiModelM"
+        android:label="@string/ui_model_manager"
+        tools:layout="@layout/ui_model_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_vibratorM"
+        android:name="com.example.androidmanager.ui.vibrator.VibratorM"
+        android:label="@string/vibrator"
+        tools:layout="@layout/vibrator_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_wifiM"
+        android:name="com.example.androidmanager.ui.wifiM.WifiM"
+        android:label="@string/wifi_manager"
+        tools:layout="@layout/wifi_m_fragment" />
+
+    <fragment
+        android:id="@+id/nav_windowM"
+        android:name="com.example.androidmanager.ui.windowM.WindowM"
+        android:label="@string/window_manager"
+        tools:layout="@layout/fragment_window_m" />
+
+
+</navigation>

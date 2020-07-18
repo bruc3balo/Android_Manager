@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_activityM"
+            android:icon="@drawable/activity"
+            android:title="@string/activity_manager" />
+
+        <item
+            android:id="@+id/nav_alarmM"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:iconTint="@android:color/black"
+            android:title="@string/alarm_manager"
+            tools:targetApi="o" />
+
+        <item
+            android:id="@+id/nav_audioM"
+            android:icon="@android:drawable/presence_audio_online"
+            android:title="@string/audio_manager" />
+
+        <item
+            android:id="@+id/nav_batteryM"
+            android:icon="@drawable/battery"
+            android:title="@string/battery_manager" />
+
+        <item
+            android:id="@+id/nav_connectivityM"
+            android:icon="@drawable/connection"
+            android:title="@string/connectivity_manager" />
+
+        <item
+            android:id="@+id/nav_downloadM"
+            android:icon="@drawable/download"
+            android:title="@string/download_manager" />
+
+        <item
+            android:id="@+id/nav_inputMethodM"
+            android:icon="@drawable/keyboard"
+            android:title="@string/input_manager" />
+
+        <item
+            android:id="@+id/nav_jobSchedulerM"
+            android:icon="@drawable/job"
+            android:title="@string/job_scheduler" />
+
+        <item
+            android:id="@+id/nav_keyguardM"
+            android:icon="@drawable/keyguard"
+            android:title="@string/keyguard_manager" />
+
+        <item
+            android:id="@+id/nav_locationM"
+            android:icon="@drawable/location_m"
+            android:title="@string/location_manager" />
+
+        <item
+            android:id="@+id/nav_mediaRouteM"
+            android:icon="@drawable/media_play"
+            android:title="@string/media_route" />
+
+        <item
+            android:id="@+id/nav_networkStatsM"
+            android:icon="@drawable/network_stats"
+            android:title="@string/network_stats_manager" />
+
+        <item
+            android:id="@+id/nav_searchM"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/search_manager" />
+
+        <item
+            android:id="@+id/nav_subscriptionM"
+            android:icon="@drawable/sub"
+            android:title="@string/subscription_manager"/>
+
+        <item
+            android:id="@+id/nav_telephonyM"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="@string/telephony_manager" />
+
+        <item
+            android:id="@+id/nav_uiModelM"
+            android:icon="@drawable/page"
+            android:title="@string/ui_model_manager" />
+
+        <item
+            android:id="@+id/nav_vibratorM"
+            android:icon="@drawable/vibrator"
+            android:title="@string/vibrator" />
+
+        <item
+            android:id="@+id/nav_wifiM"
+            android:icon="@drawable/wifi"
+            android:title="@string/wifi_manager" />
+
+        <item
+            android:id="@+id/nav_windowM"
+            android:icon="@drawable/window"
+            android:title="@string/window_manager" />
+
+    </group>
+</menu>
